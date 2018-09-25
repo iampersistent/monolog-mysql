@@ -1,8 +1,7 @@
 {
-    "name": "wazaari/monolog-mysql",
+    "name": "iampersistent/monolog-mysql",
     "description": "A handler for Monolog that sends messages to MySQL",
     "keywords": ["log", "logging", "monolog", "mysql", "database"],
-    "homepage": "https://github.com/waza-ari/monolog-mysql",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +12,6 @@
     "require": {
         "monolog/monolog": ">1.4.0",
         "ext-pdo_mysql": "*"
-    },
     "autoload": {
         "psr-4": {"MySQLHandler\\": "src/MySQLHandler"}
     }
